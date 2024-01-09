@@ -2,13 +2,35 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-
-<footer class="bg-white dark:bg-gray-900">
+    <div className=' '>
+         <div className='border py-10'>
+        <div className='w-[40%]  mb-8 max-md:w-[60%] max-sm:w-[95%]  m-auto'>
+     <p className='text-center font-bold my-2 text-[25px]'>Model UI</p>
+     <p className='text-center text-[#777979]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eligendi reiciendis quaerat. Dicta explicabo ad minima nobis voluptatem necessitatibus sit?</p>
+     </div>
+    </div>
+<footer class="bg-white mt-5  dark:bg-gray-900">
     <div class="mx-auto w-full">
-      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
-        <div>
+      <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-5">
+        <div className='text-center'>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
+            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Contact</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Pricing </a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Feature</a>
+                </li>
+            </ul>
+        </div>
+        <div className='text-center'>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Product</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class=" hover:underline">About</a>
@@ -24,8 +46,8 @@ function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+        <div className='text-center'>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resource</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">Discord Server</a>
@@ -41,7 +63,7 @@ function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
+        <div className='text-center'>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
@@ -55,8 +77,8 @@ function Footer() {
                 </li>
             </ul>
         </div>
-        <div>
-            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+        <div className='text-center'>
+            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Support</h2>
             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4">
                     <a href="#" class="hover:underline">iOS</a>

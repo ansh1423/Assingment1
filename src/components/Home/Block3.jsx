@@ -5,9 +5,9 @@ import { MdLockOpen } from "react-icons/md";
 
 function Block3() {
   return (
-    <div className='my-10  '>
-    <div className='w-[40%] mx-auto flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
-        <h5 className=" text-3xl mb-4 max-sm:font-normal text-center   dark:text-white">
+    <div className='mt-24    '>
+    <div className='w-[35%] mx-auto flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
+        <h5 className=" text-[28px] mb-4 max-sm:font-normal text-center   dark:text-white">
             Elevating Card Programs with Cutting-Edge Technology
         </h5>
         <p className="mb-2 text-gray-500 text-center text-[14px] dark:text-gray-400">
@@ -40,7 +40,7 @@ function Block3() {
 
     </div>
 
-    <div className='mx-4 mt-10 mb-5 max-sm:flex-col   px-8 flex gap-12 justify-around'>
+    <div className='mx-4 mt-20 max-sm:mt-10 mb-5 max-sm:flex-col   px-8 flex gap-12 justify-around'>
         <div className='w-full'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
                 <GoGlobe className='text-[#592066] bg-[#F4EFF7] px-2 py-2 w-8 h-8 rounded-full' />
