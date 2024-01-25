@@ -10,8 +10,8 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function Block4() {
   return (
-    <div className="pt-8">
-      <div className="mb-16 mt-24 mx-6  ">
+    <div className="pt-8 dark:bg-[#2F373D]">
+      <div className="pb-16 mt-24 mx-6  ">
       <div className='w-[50%]   flex mx-auto gap-4 flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
       
       <h5 className=" text-[35px] px-4 text-[#121417] flex flex-col items-center justify-center  font-[900] font-manrope mb-4 max-sm:font-normal text-center   dark:text-white">

@@ -5,7 +5,8 @@ import { MdLockOpen } from "react-icons/md";
 
 function Block3() {
   return (
-    <div className='sm:my-24 max-sm:mt-16  mx-20      '>
+      <div className='dark:bg-[#2F373D]'>
+    <div className='sm:py-24 dark:bg-[#2F373D]   max-sm:pt-16  mx-20      '>
     <div className='w-[50%]   flex mx-auto gap-4 flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
       
         <h5 className=" text-[35px]  max-sm:text-[33px] px-4 text-[#121417] flex flex-col items-center justify-center  font-[900] font-manrope mb-4 max-sm:font-normal text-center   dark:text-white">
@@ -15,10 +16,10 @@ function Block3() {
         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         </h5>
-        <div className=' flex rounded-[8px] mb-5'>
+        <div className=' flex rounded-[8px] pb-5'>
             <button 
                 
-                className="text-[#582066] text-[12px] font-manrope  font-bold  m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-sm px-5 py-2.5  inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-[#582066] dark:text-white text-[12px] font-manrope  font-bold  m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-sm px-5 py-2.5  inline-flex items-center"
             >
                 Compare all Pro features
                 <svg
@@ -42,7 +43,7 @@ function Block3() {
 
     </div>
 
-    <div className=' mt-24 max-sm:mt-10 mb-5 max-lg:flex-col   flex gap-12 justify-around'>
+    <div className=' mt-24 max-sm:mt-10 pb-5 max-lg:flex-col   flex gap-12 justify-around'>
         <div className='flex max-lg:flex-col gap-8 items-center justify-center w-full'>
 
       
@@ -50,27 +51,28 @@ function Block3() {
             <div className='flex items-center mb-4 justify-center w-full h-6'>
                <img src="globe.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
-            <p className='text-center text-[14px] mt-2'>Globally accepted</p>
-            <p className='text-center     text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
+            <p className='text-center dark:text-white text-[14px] mt-2'>Globally accepted</p>
+            <p className='text-center  dark:text-white    text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
         </div>
 
         <div className='w-[40%] max-md:w-[80%]'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
             <img src="key.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
-            <p className='text-center text-[14px] mt-2'>Biometrically Integrated</p>
-            <p className='text-center text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
+            <p className='text-center dark:text-white text-[14px] mt-2'>Biometrically Integrated</p>
+            <p className='text-center  dark:text-white text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
         </div>
 
         <div className='w-[40%] max-md:w-[80%]'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
             <img src="lock.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
-            <p className='text-center text-[14px] mt-2'>Fully Secured</p>
-            <p className='text-center text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
+            <p className='text-center  dark:text-white text-[14px] mt-2'>Fully Secured</p>
+            <p className='text-center  dark:text-white text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
         </div>
         </div>
     </div>
+</div>
 </div>
   )
 }

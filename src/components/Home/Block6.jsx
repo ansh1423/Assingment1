@@ -23,7 +23,7 @@ function Block6() {
   const value = 5.0;
 
   return (
-    <div className='my-5 max-sm:p-0  p-5 '>
+    <div className='py-5 dark:bg-[#2F373D] max-sm:p-0  p-5 '>
     <div className='w-[50%] mx-auto  flex flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
       <img src="/Company logo.png" alt="" />
         <p className="mb-5 my-3 text-gray-800 text-center text-[19px] dark:text-gray-400">
@@ -35,8 +35,8 @@ function Block6() {
     </Stack>
    
      </div>
-     <h3 className='text-center font-inter text-[14px] font-[800]'>Nik Baber</h3>
-    <h3 className='text-center  font-inter mb-2  text-[12px]'>Lead Designer</h3>
+     <h3 className='text-center dark:text-white font-inter text-[14px] font-[800]'>Nik Baber</h3>
+    <h3 className='text-center  dark:text-white font-inter mb-2  text-[12px]'>Lead Designer</h3>
   <div className='flex items-center justify-center'>
   <Box
       sx={{
