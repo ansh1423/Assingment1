@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'nunito': ['Nunito', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif'],
+        inter : ['Inter', 'sans-serif']
+      
       },
 
     },

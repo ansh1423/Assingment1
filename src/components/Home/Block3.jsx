@@ -5,18 +5,20 @@ import { MdLockOpen } from "react-icons/md";
 
 function Block3() {
   return (
-    <div className='mt-24    '>
-    <div className='w-[35%] mx-auto flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
-        <h5 className=" text-[28px] mb-4 max-sm:font-normal text-center   dark:text-white">
-            Elevating Card Programs with Cutting-Edge Technology
-        </h5>
-        <p className="mb-2 text-gray-500 text-center text-[14px] dark:text-gray-400">
-            Stay Lorem, ipsum dolor sit  corrupti harum repellat! up to date and move work forward with Flowbite on iOS & Android. Download the app today.
+    <div className='sm:my-24 max-sm:mt-16  mx-20      '>
+    <div className='w-[50%]   flex mx-auto gap-4 flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
+      
+        <h5 className=" text-[35px]  max-sm:text-[33px] px-4 text-[#121417] flex flex-col items-center justify-center  font-[900] font-manrope mb-4 max-sm:font-normal text-center   dark:text-white">
+        Elevating Card Programs with Cutting-Edge Technology
+        
+        <p className="mb-2  w-[70%] text-center  mt-1 font-inter  text-gray-500  text-[14px] dark:text-gray-400">
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className=' flex mb-5'>
+        </h5>
+        <div className=' flex rounded-[8px] mb-5'>
             <button 
                 
-                className="text-[#8C6596]   m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5  inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-[#582066] text-[12px] font-manrope  font-bold  m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-sm px-5 py-2.5  inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
                 Compare all Pro features
                 <svg
@@ -40,29 +42,33 @@ function Block3() {
 
     </div>
 
-    <div className='mx-4 mt-20 max-sm:mt-10 mb-5 max-sm:flex-col   px-8 flex gap-12 justify-around'>
-        <div className='w-full'>
+    <div className=' mt-24 max-sm:mt-10 mb-5 max-lg:flex-col   flex gap-12 justify-around'>
+        <div className='flex max-lg:flex-col gap-8 items-center justify-center w-full'>
+
+      
+        <div className=' w-[40%] max-md:w-[80%]'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
-                <GoGlobe className='text-[#592066] bg-[#F4EFF7] px-2 py-2 w-8 h-8 rounded-full' />
+               <img src="globe.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
             <p className='text-center text-[14px] mt-2'>Globally accepted</p>
-            <p className='text-center text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
+            <p className='text-center     text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
         </div>
 
-        <div className='w-full'>
+        <div className='w-[40%] max-md:w-[80%]'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
-                <RiKey2Fill className='text-[#592066] bg-[#F4EFF7] px-2 py-2 w-8 h-8 rounded-full' />
+            <img src="key.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
             <p className='text-center text-[14px] mt-2'>Biometrically Integrated</p>
             <p className='text-center text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
         </div>
 
-        <div className='w-full'>
+        <div className='w-[40%] max-md:w-[80%]'>
             <div className='flex items-center mb-4 justify-center w-full h-6'>
-                <MdLockOpen className='text-[#592066] bg-[#F4EFF7] px-2 py-2 w-8 h-8 rounded-full' />
+            <img src="lock.png" alt=""  className='px-2 py-2 bg-[#F4EFF7]  w-8 h-8 rounded-full' />
             </div>
             <p className='text-center text-[14px] mt-2'>Fully Secured</p>
             <p className='text-center text-[12px] mt-2'>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet. adipisicing elit. Consectetur, eveniet?</p>
+        </div>
         </div>
     </div>
 </div>

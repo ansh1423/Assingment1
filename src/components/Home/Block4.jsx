@@ -10,19 +10,21 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function Block4() {
   return (
-    <div>
+    <div className="pt-8">
       <div className="mb-16 mt-24 mx-6  ">
-      <div className='w-[35%] mx-auto flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
-        <h5 className=" text-[28px] mb-4 max-sm:font-normal text-center   dark:text-white">
-            Elevating Card Programs with Cutting-Edge Technology
-        </h5>
-        <p className="mb-2 text-gray-500 text-center text-[14px] dark:text-gray-400">
-            Stay Lorem, ipsum dolor sit  corrupti harum repellat! up to date and move work forward with Flowbite on iOS & Android. Download the app today.
+      <div className='w-[50%]   flex mx-auto gap-4 flex-col items-center justify-center max-lg:w-[55%] max-sm:w-full max-sm:px-4 max-md:px-7 px-10'>
+      
+      <h5 className=" text-[35px] px-4 text-[#121417] flex flex-col items-center justify-center  font-[900] font-manrope mb-4 max-sm:font-normal text-center   dark:text-white">
+        Elevating Card Programs with Cutting-Edge Technology
+        
+        <p className="mb-2  w-[70%] text-center  mt-1 font-inter  text-gray-500  text-[14px] dark:text-gray-400">
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <div className=' flex mb-5'>
+        </h5>
+        <div className=' flex rounded-[8px] mb-5'>
             <button 
                 
-                className="text-[#8C6596]   m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5  inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                className="text-[#582066] text-[12px] font-manrope  font-bold  m-auto text-center focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-lg text-sm px-5 py-2.5  inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
                 Compare all Pro features
                 <svg
@@ -44,35 +46,27 @@ function Block4() {
 
         </div>
 
-    </div>
+   
 
-    <>
+  </div>
+
+
+    
     {/* <h1 className='flex text-6xl  mb-5 max-lg:text-3xl max-md:hidden max  pt-16 justify-center font-[200px] w-full h-32' style={{ fontFamily: "'Bebas Neue', sans-serif" }}>SHOP BY CATEGORIES</h1> */}
+  <div className="flex items-center justify-center">
 
-    <div className='flex  justify-center mt-10  items-center'>
-      <div className=' w-[88%] flex max-sm:gap-5 rounded-lg max-sm:flex-col max-sm:items-center gap-10  justify-evenly  h-auto '>
-        <div>
-         <img src="https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJlZSUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D" alt="" /> 
-   {/* <button className='font-[400] border  px-12 py-3 my-4 text-center text-[14px] relative text-black no-underline transition-transform before:bg-hsl-45-100-70 before:content- before:inset-0 before:absolute before:transform-scale-x-0 before:transform-origin-right before:transition-transform-0.5s before:ease-in-out before:z-index--1 hover:before:transform-scale-x-1 hover:before:transform-origin-left'>
-        Shop Women Formal Shoes
-   </button> */}
-  
-      </div>
-      <div>
-         <img src="https://images.unsplash.com/photo-1561816544-21ecbffa09a3?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D" alt="" /> 
-        
-   {/* <button className='font-[400] border  px-12 py-3 my-4 text-center text-[14px] relative text-black no-underline transition-transform before:bg-hsl-45-100-70 before:content- before:inset-0 before:absolute before:transform-scale-x-0 before:transform-origin-right before:transition-transform-0.5s before:ease-in-out before:z-index--1 hover:before:transform-scale-x-1 hover:before:transform-origin-left'>
-        Shop Women Formal Shoes
-   </button> */}
  
+    <div className='flex mx-8 max-lg:flex-col max-lg:w-[40%] max-sm:w-[80%] h-[70%]     justify-center mt-10  gap-8 items-center'>
+        <div>
+          <img src="yyyy.png" alt="" className="" />
+        </div>
+        <div>
+          <img src="tttt.png" alt="" />
+        </div>
+      </div>
+      </div>
       </div>
      
-     
-      </div>
-      </div>
-      </>
-      </div>
-      <div></div>
     </div>
   );
 }
